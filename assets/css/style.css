@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Volkorn:400.400i,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400.400i,600,700,900&display=swap');
 
 /* Conversion note - 1rem = 16px. Rem to be used as a scalable sizing unit */
 /* Generic Styling */
@@ -6,7 +6,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Volkorn', sans-serif;
+    font-family: 'Vollkorn', sans-serif;
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
