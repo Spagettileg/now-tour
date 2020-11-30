@@ -33,4 +33,6 @@
 .container {
     /*very light grey*/
     background-color: #EEE;
+    margin: 2.1875rem;
+    box-shadow: 0 0.625rem 1.875rem #4D4D4D;
 }
