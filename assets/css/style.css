@@ -13,28 +13,24 @@
     outline: none;
 }
 
-.primary-color {
-    color: #2B81E4;
-}
-
-.secondary-color {
-    color: #EEE;
-}
-
-.white-color {
-    color: #FFF
-}
-
-.grey-color {
-    color: #555;
-}
-
-.light-grey-color {
-    color: #777;
-}
-
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Colour Palette */
+
+/* Primary Colour - Royal Blue        - #3486E5 */
+/* Secondary Colour - Very Light Grey - #F2F2F2 */
+/* White Colour                       - #FFFFFF */
+/* Grey Colour - Gun Metal Grey       - #4D4D4D */
+/* Light Grey Colour - Pencil Grey    - #808080 */
+
+
+/* Containers */
+
+.container {
+    /*very light grey*/
+    background-color: #EEE;
 }
