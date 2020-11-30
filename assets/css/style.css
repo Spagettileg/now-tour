@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Volkorn:400.400i,600,700,900&display=swap');
 
+/* Conversion note - 1rem = 16px. Rem to be used as a scalable sizing unit */
 /* Generic Styling */
 
 * {
@@ -10,5 +11,31 @@
     text-decoration: none;
     box-sizing: border-box;
     outline: none;
+}
+
+.primary-color {
+    color: #2B81E4;
+}
+
+.secondary-color {
+    color: #EEE;
+}
+
+.white-color {
+    color: #FFF
+}
+
+.grey-color {
+    color: #555;
+}
+
+.light-grey-color {
+    color: #777;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
