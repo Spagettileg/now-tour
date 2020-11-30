@@ -48,6 +48,7 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    text-shadow: 0.1875rem 0.3125rem #808080;
 }
 
 .heading {
@@ -60,4 +61,5 @@
     font-weight: 500;
     color: #F2F2F2;
     max-width: 43.75rem;
+    margin: auto;
 }
