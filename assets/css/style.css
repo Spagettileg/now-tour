@@ -42,6 +42,8 @@
     height: calc(100vh - 4.375rem);
     background: linear-gradient(rgba(26, 117, 255, 0.35), rgba(26, 117, 255, 0.15)), url(../img/header-bg.png) center no-repeat;
     background-size: cover;
+    /* Parent element set to relative, as logo will be set to absolute */
+    position: relative;
 }
 
 .header-text {
@@ -62,4 +64,10 @@
     color: #F2F2F2;
     max-width: 43.75rem;
     margin: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
 }
