@@ -43,3 +43,20 @@
     background: linear-gradient(rgba(26, 117, 255, 0.35), rgba(26, 117, 255, 0.15)), url(../img/header-bg.png) center no-repeat;
     background-size: cover;
 }
+
+.header-text {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.heading {
+    font-size: 4rem;
+    color: #FFFFFF;
+}
+
+.header-paragraph {
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: #F2F2F2;
+}
