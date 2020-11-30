@@ -40,4 +40,6 @@
 .header {
     width: 100%;
     height: calc(100vh - 4.375rem);
+    background: linear-gradient(rgba(26, 117, 255, 0.35), rgba(26, 117, 255, 0.15)), url(../img/header-bg.png) center no-repeat;
+    background-size: cover;
 }
