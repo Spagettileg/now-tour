@@ -202,3 +202,14 @@
 
 /* ---------- Amazing Tours ------------- */
 
+.amazing-tours {
+    padding: 3.125rem 0 6.25rem 0;
+}
+
+.amazing-tours-heading {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #3486E5;
+    text-shadow: 0 0.0625rem 0.125rem #3486E5;
+}
