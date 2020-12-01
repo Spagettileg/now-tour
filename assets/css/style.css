@@ -439,6 +439,8 @@
 .input-group {
     margin: 0.625rem 0;
     width: 100%;
+    /* position of input-group label side set to parent */
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -469,4 +471,16 @@
 .input-group input:focus,
 .input-group textarea:focus {
     border-radius: 0.0625rem solid #B3B3B3;
+}
+
+.input-group label {
+    /* position of input-group label side set to parent */
+    position: absolute;
+    top: 0.625rem;
+    left: 0.625rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+    color: #4D4D4D;
 }
