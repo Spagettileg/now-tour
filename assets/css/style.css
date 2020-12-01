@@ -35,6 +35,7 @@
     background-color: #EEE;
     margin: 2.1875rem;
     box-shadow: 0 0.625rem 1.875rem #4D4D4D;
+    overflow: hidden;
 }
 
 .header {
@@ -44,6 +45,7 @@
     background-size: cover;
     /* Parent element set to relative, as logo will be set to absolute */
     position: relative;
+    perspective: 62.5rem;
 }
 
 .header-text {
@@ -64,6 +66,13 @@
     color: #F2F2F2;
     max-width: 43.75rem;
     margin: auto;
+}
+
+.header-image {
+    width: 50%;
+    animation-name: balloon-drift;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
 }
 
 .logo {
@@ -162,5 +171,29 @@
     }
     100% {
         transform: translateY(0);
+    }
+}
+
+@keyframes balloon-drift {
+    0% {
+        transform: translateZ(25rem);
+    }
+    40% {
+        transform: translateZ(-312.50rem) translateX(93.75rem);
+        opacity: 0.8;
+    }
+    70% {
+        /* Balloon image will move to a smaller view in this animation level */
+        transform: translateZ(-937.50rem) translateX(500rem);
+        opacity: 0.6;
+    }
+    80% {
+        /* Balloon image will closer to the user in this animation level */
+        transform: translateZ(-31.25rem) translateX(62.5rem);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateZ(25rem);
+        opacity: 1;
     }
 }
