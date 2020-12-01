@@ -455,6 +455,12 @@
     width: 48.5%;
 }
 
+.input-group textarea {
+    /* Control size of the form textarea */
+    max-height: 9.375rem;
+    max-width: 100%;
+}
+
 .input-group input,
 .input-group textarea {
     /* Format inner contact form */ 
@@ -483,4 +489,22 @@
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
     color: #4D4D4D;
+}
+
+.form-btn {
+    margin-top: 0.625rem;
+    width: 100%;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
+    background-color: #808080;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.form-btn:hover {
+    background-color: #4D4D4D;
 }
