@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn:400.400i,600,700,900&display=swap');
 
 /* Conversion note - 1rem = 16px. Rem to be used as a scalable sizing unit */
-/* Generic Styling */
 
+/* --------- Generic Styling -------- */
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@
 /* Light Grey Colour - Pencil Grey    - #808080 */
 
 
-/* Containers */
+/* -------- Containers ------------ */
 
 .container {
     /*very light grey*/
@@ -37,6 +37,8 @@
     box-shadow: 0 0.625rem 1.875rem #4D4D4D;
     overflow: hidden;
 }
+
+/* ---------- Header ------------- */
 
 .header {
     width: 100%;
@@ -197,3 +199,6 @@
         opacity: 1;
     }
 }
+
+/* ---------- Amazing Tours ------------- */
+
