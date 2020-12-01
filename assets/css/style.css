@@ -335,7 +335,7 @@
 
 .customer-comments {
     padding: 6.25rem;
-    /* position of card top side set to parent */
+    /* position of video-container side set to parent */
     position: relative;
 }
 
@@ -346,6 +346,7 @@
 }
 
 .video-container {
+    /* position of video-container side set to parent */
     position: absolute;
     top: 0;
     left: 0;
