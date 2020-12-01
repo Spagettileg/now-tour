@@ -362,6 +362,7 @@
 .comments-heading {
     margin-bottom: 0.625rem;
     font-size: 1.5625rem;
+    letter-spacing: 0.2rem;
     text-transform: uppercase;
     color: #4D4D4D;
 }
@@ -369,6 +370,10 @@
 .comments-paragraph {
     font-size: 1.125rem;
     color: #808080;
+}
+
+.comments-paragraph::first-letter {
+    margin-left: 0.625rem;
 }
 
 .customer-image {
