@@ -29,7 +29,7 @@
 /* Foggy Grey Colour                  - #B3B3B3 */
 /* Charcoal Grey Colour               - #333333 */
 /* Smokey Grey Colour                 - #EEEEEE */     
-
+/* Black Colour                       - #000000 */ 
 
 /* -------- Containers ------------ */
 
@@ -508,4 +508,40 @@
 
 .form-btn:hover {
     background-color: #4D4D4D;
+}
+
+/*------------ Footer ------------ */
+
+.footer {
+    background-color: #4D4D4D;
+    padding: 2.5rem 0 1.25rem 0;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    padding: 0.1875rem 1.875rem;
+    margin: 0 1.25rem;
+    font-size: 1.25rem;
+    background-color: #4D4D4D;
+    color: #FFFFFF;
+    letter-spacing: 0.1875rem;
+    transition: all 0.2s;
+}
+
+.footer-link:hover {
+    /* Footer link items slightly rotate upon hover. */
+    transform: rotate(10deg);
+    box-shadow: 0 1.25rem 1.875rem #000000;
+}
+
+.footer-paragraph {
+    margin-top: 3.125rem;
+    text-align: center;
+    font-size: 0.9375rem;
+    color: #F2F2F2;
+    letter-spacing: 0.125rem;
 }
