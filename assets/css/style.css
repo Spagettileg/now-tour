@@ -213,3 +213,16 @@
     color: #3486E5;
     text-shadow: 0 0.0625rem 0.125rem #3486E5;
 }
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.card {
+    width: 21.875rem;
+}
+
+.card-image {
+    width: 100%;
+}
