@@ -246,3 +246,18 @@
     color: #FFFFFF;
     text-shadow: 0 0 0.625rem #4D4D4D;
 }
+
+.card-list {
+    width: 80%;
+    margin: auto;
+    padding: 1.25rem 0 1.875rem 0;
+}
+
+.card-list-item {
+    margin: 1.25rem 0;
+    border-bottom: 0.0625rem solid #3486E5;
+    padding-bottom: 0.9375rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+}
