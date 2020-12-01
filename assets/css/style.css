@@ -293,3 +293,19 @@
     cursor: pointer;
 }
 
+.nav-button {
+    padding: 0.3125rem;
+    position: absolute;
+    top: 0.3125rem;
+    left: 0.3125rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #808080;
+    border-radius: 0.5rem;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    font-weight: 600;
+}
+
