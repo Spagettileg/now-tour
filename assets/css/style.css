@@ -410,6 +410,8 @@
     text-align: center;
     background: url(../img/woodland.png) center no-repeat;
     background-size: cover;
+    width: 100%;
+    height: calc(100vh - 4.375rem);
 }
 
 .contact-us-heading {
@@ -420,4 +422,13 @@
     letter-spacing: 0.3125rem;
     color: #FFFFFF;
     text-shadow: 0 0.625rem 1.25rem #4D4D4D;
+}
+
+.contact-us-form {
+    margin: auto;
+    width: 4.375rem;
+    height: 3.125rem;
+    /* White with opacity */
+    background-color: rgba(255, 255, 255, 0.95);
+    
 }
