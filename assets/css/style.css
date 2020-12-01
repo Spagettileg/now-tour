@@ -349,9 +349,30 @@
     width: 70%;
     box-shadow: 0 1.25rem 3.125rem rgba(51, 51, 51, 0.4);
     background-color: #B3B3B3;
+    /* Container moves to a lob-sided oblong shape */ 
+    transform: skewX(20deg);
+}
+
+.comments {
+    /* Container moves to a lob-sided oblong shape */ 
+    transform: skewX(-20deg);
+    display: flex;
+}
+
+.comments-heading {
+    margin-bottom: 0.625rem;
+    font-size: 1.5625rem;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+    
+.comments-paragraph {
+    font-size: 1.125rem;
+    color: #808080;
 }
 
 .customer-image {
+    margin-right: 3.125rem;
     width: 12.5rem;
     height: 12.5rem;
     border-radius: 50%;
