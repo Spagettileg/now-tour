@@ -188,7 +188,7 @@
         opacity: 0.6;
     }
     80% {
-        /* Balloon image will closer to the user in this animation level */
+        /* Balloon image will move closer to the user in this animation level */
         transform: translateZ(-31.25rem) translateX(62.5rem);
         opacity: 0.8;
     }
