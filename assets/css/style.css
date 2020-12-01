@@ -29,6 +29,9 @@
 /* Foggy Grey Colour                  - #B3B3B3 */
 /* Charcoal Grey Colour               - #333333 */
 /* Smokey Grey Colour                 - #EEEEEE */     
+/* Misty Blue Colour                  - #BDCBDB */ 
+/* Sky Blue Colour                    - #60A6EB */    
+/* Sandstone Orange Colour            - #FF9166 */ 
 
 /* -------- Containers ------------ */
 
@@ -412,6 +415,7 @@
     background-size: cover;
     width: 100%;
     height: calc(100vh - 4.375rem);
+    animation: contact-glows 10s infinite;
 }
 
 .contact-us-heading {
@@ -507,4 +511,22 @@
 
 .form-btn:hover {
     background-color: #4D4D4D;
+}
+
+@keyframes contact-glows {
+    0% {
+        background-color: #333333;
+    }
+    25% {
+        background-color: #BDCBDB;
+    }
+    50% {
+        background-color: #60A6EB;
+    }
+    75% {
+        background-color: #FF9166;
+    }
+    100% {
+        background-color: #333333;
+    }
 }
