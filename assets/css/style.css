@@ -282,3 +282,14 @@
     box-shadow: 0 1.25rem 2.5rem #808080; 
 }
 
+.card-button {
+    color: #3486E5;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 1.5625rem;
+    padding: 0.625rem 1.25rem;
+    letter-spacing: 0.125rem;
+    border-radius: 3.125rem;
+    cursor: pointer;
+}
+
