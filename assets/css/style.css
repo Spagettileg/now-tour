@@ -411,3 +411,13 @@
     background: url(../img/woodland.png) center no-repeat;
     background-size: cover;
 }
+
+.contact-us-heading {
+    margin-bottom: 5rem;
+    font-size: 4.375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3125rem;
+    color: #FFFFFF;
+    text-shadow: 0 0.625rem 1.25rem #4D4D4D;
+}
