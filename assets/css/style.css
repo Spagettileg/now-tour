@@ -221,6 +221,8 @@
 
 .card {
     width: 21.875rem;
+    /* position of card top side set to parent */
+    position: relative;
 }
 
 .card-image {
@@ -260,4 +262,15 @@
     font-size: 1rem;
     font-weight: 500;
     color: #808080;
+}
+
+.card-rear-side {
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    background-color: #3486E5;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 1.25rem 2.5rem #808080; 
 }
