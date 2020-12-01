@@ -223,6 +223,7 @@
     width: 21.875rem;
     /* position of card top side set to parent */
     position: relative;
+    perspective: 93.75rem;
 }
 
 .card-image {
@@ -237,6 +238,7 @@
     /* position of card top side set to parent */
     position: relative;
     z-index: 10;
+    opacity: 0.9;
 }
 
 .tour-id {
@@ -281,6 +283,8 @@
     height: 100%;
     border-radius: 0.5rem;
     box-shadow: 0 1.25rem 2.5rem #808080; 
+    transform: translateZ(-3.125rem) translateX(1.875rem);
+    opacity: 0.5;
 }
 
 .card-button {
