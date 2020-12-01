@@ -28,7 +28,7 @@
 /* Light Grey Colour - Pencil Grey    - #808080 */
 /* Foggy Grey Colour                  - #B3B3B3 */
 /* Charcoal Grey Colour               - #333333 */
-
+/* Smokey Grey Colour                 - #EEEEEE */     
 
 /* -------- Containers ------------ */
 
@@ -335,6 +335,8 @@
 
 .customer-comments {
     padding: 6.25rem;
+    /* position of card top side set to parent */
+    position: relative;
 }
 
 .customer-comments-wrapper {
@@ -343,12 +345,28 @@
     align-items: center;
 }
 
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.bg-video {
+    /* Save on unnecessary stretching of video image */ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .comments-bg {
     padding: 3.125rem;
     margin: 3.125rem;
     width: 70%;
     box-shadow: 0 1.25rem 3.125rem rgba(51, 51, 51, 0.4);
-    background-color: #B3B3B3;
+    background-color: rgba(238, 238, 238, 0.85);
     /* Container moves to a lob-sided oblong shape */ 
     transform: skewX(20deg);
 }
