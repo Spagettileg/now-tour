@@ -26,6 +26,7 @@
 /* White Colour                       - #FFFFFF */
 /* Grey Colour - Gun Metal Grey       - #4D4D4D */
 /* Light Grey Colour - Pencil Grey    - #808080 */
+/* Foggy Grey Colour                  - #B3B3B3 */
 
 
 /* -------- Containers ------------ */
@@ -239,6 +240,14 @@
     position: relative;
     z-index: 10;
     opacity: 0.9;
+    transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+.change > .card-top-side {
+    transform: translateZ(-3.125rem) translateX(1.875rem);
+    box-shadow: 0 1.25rem 2.5rem #808080;
+    opacity: 0.5;
+    z-index: 0;
 }
 
 .tour-id {
@@ -285,6 +294,13 @@
     box-shadow: 0 1.25rem 2.5rem #808080; 
     transform: translateZ(-3.125rem) translateX(1.875rem);
     opacity: 0.5;
+    transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+.change > .card-rear-side {
+    transform: translateZ(0) translateX(0);
+    box-shadow: 0 0.3125rem 1.25rem #B3B3B3;
+    opacity: 0.9;
 }
 
 .card-button {
