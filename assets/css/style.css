@@ -225,4 +225,11 @@
 
 .card-image {
     width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-top-side {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
 }
