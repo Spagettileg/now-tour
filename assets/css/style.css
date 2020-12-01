@@ -236,6 +236,7 @@
     border-radius: 0.5rem;
     /* position of card top side set to parent */
     position: relative;
+    z-index: 10;
 }
 
 .tour-id {
