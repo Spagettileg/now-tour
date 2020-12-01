@@ -249,6 +249,13 @@
     text-shadow: 0 0 0.625rem #4D4D4D;
 }
 
+.tour-cost {
+    margin-bottom: 1.875rem;
+    font-size: 3.125rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
 .card-list {
     width: 80%;
     margin: auto;
@@ -274,3 +281,4 @@
     border-radius: 0.5rem;
     box-shadow: 0 1.25rem 2.5rem #808080; 
 }
+
