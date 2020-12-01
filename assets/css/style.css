@@ -27,6 +27,7 @@
 /* Grey Colour - Gun Metal Grey       - #4D4D4D */
 /* Light Grey Colour - Pencil Grey    - #808080 */
 /* Foggy Grey Colour                  - #B3B3B3 */
+/* Charcoal Grey Colour               - #333333 */
 
 
 /* -------- Containers ------------ */
@@ -330,3 +331,29 @@
     font-weight: 600;
 }
 
+/* ---------- Customer Comments ------------ */
+
+.customer-comments {
+    padding: 6.25rem;
+}
+
+.customer-comments-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments-bg {
+    padding: 3.125rem;
+    margin: 3.125rem;
+    width: 70%;
+    box-shadow: 0 1.25rem 3.125rem rgba(51, 51, 51, 0.4);
+    background-color: #B3B3B3;
+}
+
+.customer-image {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
