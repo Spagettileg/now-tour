@@ -232,4 +232,17 @@
     text-align: center;
     background-color: #FFFFFF;
     border-radius: 0.5rem;
+    /* position of card top side set to parent */
+    position: relative;
+}
+
+.tour-id {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    right: 0.9375rem;
+    color: #FFFFFF;
+    text-shadow: 0 0 0.625rem #4D4D4D;
 }
