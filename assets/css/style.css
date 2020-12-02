@@ -670,3 +670,109 @@
     color: #F2F2F2;
     letter-spacing: 0.125rem;
 }
+
+/* ---------- Media Queries ------------ */
+
+@media (max-width: 1200px) {
+    .cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin: 1.875rem;
+    }
+    .comments-bg {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .nav-link {
+        flex-grow: 1;
+    }
+    .header-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+    .heading {
+        font-size: 3.75rem;
+    }
+    .header-paragraph {
+        font-size: 1.5625rem;
+    }
+    .amazing-tours-heading {
+        font-size: 3.75rem;
+    }
+    .comments-bg {
+        transform: skewX(0); 
+    }
+    .comments {
+        transform: skewX(0);
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer-image {
+        margin-bottom: 1.875rem;
+    }
+    .footer-link {
+        padding: 0.1875rem 1.25rem;
+        margin: 0 0.625rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header-paragraph {
+        display: none;
+    }
+    .amazing-tours-heading {
+        font-size: 3.125rem;
+    }
+    .contact-form {
+        width: 90%;
+    }
+    .footer-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-link {
+       margin: 0.625rem 0; 
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        margin: 0;
+    }
+    .open-navbar-icon {
+        top: 1.5625rem;
+        left: 1.5625rem;
+    }
+    .navbar-wrapper {
+        padding:0;
+    }
+    .close-navbar-icon {
+        right: 2.5rem;
+    }
+    .header {
+        height: 100vh;
+    }
+    .contact-us-heading {
+        font-size: 3.75rem;
+    }
+    .contact-form {
+        padding: 1.25rem;
+        height: 25rem;
+    }
+}
+
+@media (max-width: 650px) {
+    html {
+        font-size: 45%;
+    }
+}
