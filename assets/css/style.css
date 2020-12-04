@@ -328,6 +328,31 @@
     }
 }
 
+@keyframes balloon-drift-mobtab {
+    /* Adjusts the flight path of the balloon on mobile devices - see media query */
+    0% {
+        transform: translateZ(25rem);
+    }
+    40% {
+        transform: translateZ(-31.50rem) translateX(9.75rem);
+        opacity: 0.8;
+    }
+    70% {
+        /* Balloon image will move to a smaller view in this animation level */
+        transform: translateZ(-23.50rem) translateX(10rem);
+        opacity: 0.6;
+    }
+    80% {
+        /* Balloon image will move closer to the user in this animation level */
+        transform: translateZ(-21.25rem) translateX(12.5rem);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateZ(25rem);
+        opacity: 1;
+    }
+}
+
 /* ---------- Amazing Tours ------------- */
 
 .amazing-tours {
@@ -673,106 +698,392 @@
 
 /* ---------- Media Queries ------------ */
 
-@media (max-width: 650px) {
-    html {
-        font-size: 45%;
+@media (max-width: 1440px) {
+    /* ----- Large Desktop Device - Landscape ----- */
+    .header-text {
+        padding-left: 3rem;
+    }
+    .contact-us {
+        height: 135vh;
+    }
+    .comments-heading {
+        font-size: 1.1rem;
+        padding-right: 1.5rem;
+    }
+    .comments-paragraph {
+        padding-right: 0.5rem;
     }
 }
 
-@media (max-width: 650px) {
-    .container {
-        margin: 0;
+@media (max-width: 1200px) {
+    /* ----- Desktop Device - Landscape ----- */
+    .heading {
+        font-size: 3.25rem;
     }
-    .open-navbar-icon {
-        top: 1.5625rem;
-        left: 1.5625rem;
-    }
-    .navbar-wrapper {
-        padding:0;
-    }
-    .close-navbar-icon {
-        right: 2.5rem;
-    }
-    .header {
-        height: 100vh;
-    }
-    .contact-us-heading {
-        font-size: 3.75rem;
-    }
-    .contact-form {
-        padding: 1.25rem;
-        height: 25rem;
-    }
-}
-
-@media (max-width: 800px) {
     .header-paragraph {
+        font-size: 1.7rem;
+    }
+    .card {
+        margin: 3rem;
+    }
+    .amazing-tours-heading {
+        margin-bottom: 2.5rem;
+    }
+    .tour-id {
+        top: 26%;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .second-paragraph {
         display: none;
     }
-    .amazing-tours-heading {
-        font-size: 3.125rem;
-    }
-    .contact-form {
-        width: 90%;
-    }
-    .footer-list {
-        flex-direction: column;
-        align-items: center;
-    }
-    .footer-link {
-       margin: 0.625rem 0; 
-    }
 }
 
-@media (max-width: 1000px) {
-    .nav-list {
-        flex-direction: column;
-    }
-    .nav-link {
-        flex-grow: 1;
-    }
-    .header-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 10;
-    }
+@media (max-width: 1024px) {
+    /* ----- Tablet Device - Landscape ----- */
     .heading {
-        font-size: 3.75rem;
+        font-size: 2.75rem;
     }
     .header-paragraph {
-        font-size: 1.5625rem;
+        font-size: 1.5rem;
+    }
+    .header-image {
+        /* Adjust flight path of balloon on tablet device */ 
+        animation: balloon-drift-mobtab 40s infinite;
     }
     .amazing-tours-heading {
-        font-size: 3.75rem;
+        font-size: 3.5rem;
+        margin-bottom: 1.75rem;
+    }
+    .tour-id {
+        top: 21%;
+        font-size: 1.1rem;
+        font-weight: 600;
     }
     .comments-bg {
-        transform: skewX(0); 
+        transform: skewX(0);
+        padding: 0;
+        margin: 0 0 2rem;
+        width: 90%;
     }
     .comments {
+        padding-top: 2rem;
         transform: skewX(0);
         flex-direction: column;
         align-items: center;
     }
     .customer-image {
-        margin-bottom: 1.875rem;
+        padding: 0;
+        margin: 0;
     }
-    .footer-link {
-        padding: 0.1875rem 1.25rem;
-        margin: 0 0.625rem;
+    .customer-comments {
+        padding: 2rem 0 2rem;
+    }
+    .comments-text {
+        padding-top: 1rem;
+    }
+    .comments-heading {
+        padding: 0;
+        font-size: 1.5625rem;
+        text-align: center;
+    }
+    .comments-paragraph {
+        padding: 1rem 1rem;
+        margin: 0 1rem;
+    }
+    .contact-us {
+        height: 125vh;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
+    /* ----- Tablet Device - Portrait ----- */
+    .heading {
+        font-size: 4rem;
+    }
+    .header-paragraph {
+        font-size: 1.5rem;
+    }
+    .nav-list {
+        /* Navbar item are move to a vertical appearance */
+        flex-direction: column;
+    }
+    .nav-link {
+        /* Allows current navbar items to cover the mobile screen vertical space */
+        flex-grow: 1;
+    }
     .cards-wrapper {
+        /* Cards move to a vertical position in mobile viewpoint */
         flex-direction: column;
         align-items: center;
     }
     .card {
-        margin: 1.875rem;
+        /* Space added to top and bottom of card */
+        margin: 2rem 0;
+        padding: 0 3rem;
+    }
+    .tour-id {
+        top: 25%;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .card-rear-side {
+        width: 70%;
+    }
+    .contact-us {
+        padding-top: 3rem;
+    }
+    .contact-us-heading {
+        padding-bottom: 3rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .contact-us-form {
+        padding-top: 0;
+        width: 90%;
+    }
+    .footer-link {
+        padding: 0.1875rem 1.2rem;
+        margin: 0 0.75rem;
+        font-size: 1.25rem;
+        letter-spacing: 0.1875rem;
+    }
+    .footer-paragraph {
+        margin-top: 2rem;
+        font-size: 0.9375rem;
+        letter-spacing: 0.125rem;
+    }
+}
+
+@media (max-width: 700px) {
+    /* ----- Desktop Device - Portrait ----- */
+    .footer-link {
+        padding: 0.1875rem 0.75rem;
+        margin: 0 0.5rem;
+        font-size: 1.25rem;
+        letter-spacing: 0.1875rem;
+    }
+}
+
+@media (max-width: 667px) {
+    /* ----- Mobile Device - Landscape ----- */
+    .header {
+        height: 100vh;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+    .header-text {
+        /* Move header text to absolute centre of mobile screen */
+        position: absolute;
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* z-index score helps balloon image move behind header text and not over the text */
+        z-index: 10;
+    }
+    .header-paragraph {
+        font-size: 0.8rem;
+    }
+    .amazing-tours-heading {
+        font-size: 3rem;
+    }
+    .nav-list {
+        /* Navbar item are move to a vertical appearance */
+        flex-direction: column;
+    }
+    .nav-link {
+        /* Allows current navbar items to cover the mobile screen vertical space */
+        flex-grow: 1;
+    }
+    .cards-wrapper {
+        /* Cards move to a vertical position in mobile viewpoint */
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        /* Space added to top and bottom of card */
+        margin: 2rem 0;
+        padding: 0 3rem;
+    }
+    .tour-id {
+        top: 25%;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .card-rear-side {
+        width: 70%;
+    }
+    .comments-heading {
+        padding: 0;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .contact-us {
+        height: 160vh;
+        padding-top: 3rem;
+    }
+    .contact-us-heading {
+        padding: 0;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .contact-us-form {
+        padding-top: 0;
+        height: 110%;
+        width: 90%;
+    }
+    .footer-link {
+        padding: 0.1875rem 0.75rem;
+        margin: 0 0.75rem;
+        font-size: 1.1rem;
+        letter-spacing: 0.1875rem;
+    }
+    .footer-paragraph {
+        margin-top: 1.5rem;
+        font-size: 0.75rem;
+        letter-spacing: 0.125rem;
+    }
+}
+
+@media (max-width: 375px) {
+    /* ----- Mobile Device - Portrait ----- */
+    .logo h1 span {
+        font-size: 0.85rem;
+        font-weight: 600;
+        width: 1.25rem;
+        height: 1.25rem;
+        margin: 0.25rem;
+    }
+    .navbar-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    .nav-list {
+        /* Navbar item are move to a vertical appearance */
+        flex-direction: column;
+    }
+    .nav-link {
+        /* Allows current navbar items to cover the mobile screen vertical space */
+        flex-grow: 1;
+    }
+    .open-navbar-icon {
+        top: 3rem;
+        left: 3rem;
+    }
+    .navbar-icon .line {
+        height: 0.125rem;
+        width: 1.25rem;
+        background-color: #808080;
+    }
+    .open-navbar-icon .line {
+        margin: 0.15rem 0;
+    }
+    .header {
+        height: 100vh;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+    .header-text {
+        /* Move header text to absolute centre of mobile screen */
+        position: absolute;
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* z-index score helps balloon image move behind header text and not over the text */
+        z-index: 10;
+    }
+    .header-paragraph {
+        font-size: 0.8rem;
+    }
+    .header-image {
+        /* Adjust flight path of balloon on mobile device */ 
+        animation: balloon-drift-mobtab 40s infinite;
+    }
+    .amazing-tours-heading {
+        font-size: 2.5rem;
+    }
+    .cards-wrapper {
+        /* Cards move to a vertical position in mobile viewpoint */
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        /* Space added to top and bottom of card */
+        margin: 2rem 0;
+        padding: 0 3rem;
+    }
+    .tour-id {
+        top: 25%;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .card-rear-side {
+        width: 70%;
+    }
+    .customer-comments {
+        padding: 2rem 0 2rem;
     }
     .comments-bg {
-        width: 85%;
+        transform: skewX(0);
+        padding: 0;
+        margin: 0 0 2rem;
+        width: 90%;
+    }
+    .comments {
+        padding-top: 2rem;
+        transform: skewX(0);
+        flex-direction: column;
+        align-items: center;
+    }
+    .comments-text {
+        padding-top: 1rem;
+    }
+    .comments-heading {
+        padding: 0;
+        text-align: center;
+    }
+    .comments-paragraph {
+        padding: 1rem 1rem;
+    }
+    .customer-image {
+        padding: 0;
+        margin: 0;
+    }
+    .contact-us {
+        padding-top: 3rem;
+    }
+    .contact-us-heading {
+        padding: 0;
+        font-size: 2.375rem;
+        font-weight: 600;
+    }
+    .contact-us-form {
+        padding-top: 0;
+        width: 90%;
+        height: 70%;
+    }
+    .input-groups {
+        flex-direction: column; 
+    }
+    .input-groups .input-group {
+        width: 10.90625rem;
+    }
+    .footer-link {
+        padding: 0.3rem 0.25rem;
+        margin: 0rem;
+        font-size: 0.75rem;
+        letter-spacing: 0.125rem;
+        text-align: center;
+    }
+    .footer-paragraph {
+        margin-top: 1.5rem;
+        font-size: 0.75rem;
+        letter-spacing: 0.125rem;
     }
 }
