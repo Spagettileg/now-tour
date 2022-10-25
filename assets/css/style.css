@@ -667,9 +667,9 @@
     padding: 0.5rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
-    background-color: #FFC107;
+    background-color: #6495ED;
     /*Amber Warning*/
-    border-color: #FFC107;
+    border-color: #6495ED;
     /*Amber Warning*/
     color: #222629;
     /*Dark Slate*/
@@ -683,9 +683,9 @@
 
 .btn-up:hover {
     /* edit recipe button change colour when hovered & clicked */
-    background-color: #86C232;
+    background-color: #8db0f2;
     /*lime green*/
-    border-color: #86C232;
+    border-color: #8db0f2;
     color: #000;
     /*Black*/
     text-decoration: none;
@@ -705,8 +705,8 @@
 .move-top {
     z-index: 99;
 	position: fixed;
-	bottom: 1rem;
-	right: 1rem;
+	bottom: 2.5rem;
+	right: 2.5rem;
     display: none;
 }
 
