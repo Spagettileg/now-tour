@@ -175,7 +175,7 @@ This app was developed using the [AWS Cloud9 IDE](https://aws.amazon.com/cloud9/
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Spagettileg/now-tour), the following steps were taken:
 
 1. Log into GitHub
-2. From the list of repositories on the screen, select **Spagettileg/new-papas-tops-pizza**
+2. From the list of repositories on the screen, select **Spagettileg/now-tour**
 3. From the menu items near the top of the page, select **Settings**
 4. Scroll down to the **GitHub Pages** section
 5. Under **Source** click the drop-down menu labelled **None** and select **Main Branch**
