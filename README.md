@@ -64,7 +64,10 @@ A single page website has been created to avoid the user having to navigate to m
 * Clear information on holiday packages, with guidance notes on local tradition, customs and required innoculations  
 
 #### Business
- 
+* Promotion of the latest holiday and custom experiences to generate customer demand
+* Regularly market new holiday experiences to help leverage customer interest
+* Secure access required to customer details for efficient payment and delivery of holiday experiences
+* Social media link access to further promote Now-Tour and encourage both direct and indirect holiday bookings
 
 #### Next Stage Generation
  
