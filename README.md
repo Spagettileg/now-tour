@@ -57,7 +57,11 @@ A single page website has been created to avoid the user having to navigate to m
 ### User & Business Objectives
 
 #### User
- 
+* The User holiday experience starts by their use of Now-Tour website
+* Great holiday product offerings are made available
+* Access to bespoke holiday experiences happen via Contact Us function
+* Ease of booking, preferably via website or telephone
+* Clear information on holiday packages, with guidance notes on local tradition, customs and required innoculations  
 
 #### Business
  
