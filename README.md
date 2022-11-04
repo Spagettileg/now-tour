@@ -70,7 +70,10 @@ A single page website has been created to avoid the user having to navigate to m
 * Social media link access to further promote Now-Tour and encourage both direct and indirect holiday bookings
 
 #### Next Stage Generation
- 
+* Increase product density through expanding scope of products the ultimate holiday experience
+* Leverage footfall data to attract commercial online advertising, with resultant revenues used to maintain and grow website
+* Affiliate with holiday experience vendors to encourage exclusivity on new holiday experiences
+* Explore new social media channels to promote 'Now-Tour'
 
 ### Wireframes
 
