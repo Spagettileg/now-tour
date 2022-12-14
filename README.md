@@ -92,7 +92,7 @@ A single page website has been created to avoid the user having to navigate to m
 Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices. 
 
 ### Colour Palette
-Colours used in this project were sourced from [visme.co](https://visme.co/blog/website-color-schemes/). Essentially, the colours are seeking to capture key attributes of Papa's Tops Pizza through fresh, appetising, full flavour and wholesome
+Colours used in this project were sourced from [visme.co](https://visme.co/blog/website-color-schemes/). Essentially, the colours are seeking to capture key attributes of travel through new horizons, fun, energy and relaxation.
 
 Colour             | Hex Code
 -------------------|----------
