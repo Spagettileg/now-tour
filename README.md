@@ -174,11 +174,11 @@ The following browsers were used in testing 'Now-Tour' application. Internet Exp
 
 platform | version
 ---------|--------
-Chrome   |TBC
-Edge     |TBC
-Firefox  |TBC
-Safari   |TBC
-Opera    |TBC
+Chrome   |110.0.5481.78
+Edge     |110.0.1587.41
+Firefox  |109.0
+Safari   |16.3
+Opera    |95.0.4635.25
 
 ### Test Observations
 The following media queries were added to improve the project responsiveness on all tested devices.
