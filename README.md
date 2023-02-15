@@ -100,9 +100,9 @@ Royal Blue         | #3486E5
 Very Light Grey    | #F2F2F2 
 White Colour       | #FFFFFF 
 Gun Metal Grey     | #4D4D4D 
-/* Light Grey Colour - Pencil Grey    - #808080 */
-/* Foggy Grey Colour                  - #B3B3B3 */
-/* Charcoal Grey Colour               - #333333 */
+Pencil Grey        | #808080 
+Foggy Grey         | #B3B3B3
+Charcoal Grey      | #333333
 /* Smokey Grey Colour                 - #EEEEEE */     
 /* Black Colour                       - #000000 */ 
 
