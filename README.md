@@ -103,8 +103,8 @@ Gun Metal Grey     | #4D4D4D
 Pencil Grey        | #808080 
 Foggy Grey         | #B3B3B3
 Charcoal Grey      | #333333
-/* Smokey Grey Colour                 - #EEEEEE */     
-/* Black Colour                       - #000000 */ 
+Smokey Grey        | #EEEEEE     
+Black              | #000000 
 
 ### Typography
 [Vollkorn](https://fonts.google.com/) and [sans-serif](https://fonts.google.com/) fonts were used throughout this project.
