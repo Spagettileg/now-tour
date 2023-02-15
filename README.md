@@ -114,7 +114,7 @@ Font Awesome 5 icon graphics were used in conjunction with Bootstrap 4, primaril
 
 Page                   | Function                  | Font  
 -----------------------|---------------------------|-------
-
+index.html             | Return to top button      | `fas fa-angle-double-up`
 
 ### Navbar Design
 For all device viewpoints, the navbar offers 4 functions on show. The navbar has been designed to both collapse and open on all devices / viewpoints via a Javascript toggle control  
