@@ -219,7 +219,11 @@ Further reading and troubleshooting on cloning a repository from [GitHub](https:
 ## Credits
 
 ### Content
+- Balloon drift animation idea was sourced from [Udemy](www.udemy.com), with the actual balloon image and flight direction of the balloon updated for improved UI
 
 ### Media
+- All images were sourced from [Pixabay](www.pixabay.com) and are royalty free
 
 ### Acknowledgements
+
+This site is used for *educational* purposes only.
