@@ -96,7 +96,15 @@ Colours used in this project were sourced from [visme.co](https://visme.co/blog/
 
 Colour             | Hex Code
 -------------------|----------
-
+Royal Blue         | #3486E5 
+Very Light Grey    | #F2F2F2 
+/* White Colour                       - #FFFFFF */
+/* Grey Colour - Gun Metal Grey       - #4D4D4D */
+/* Light Grey Colour - Pencil Grey    - #808080 */
+/* Foggy Grey Colour                  - #B3B3B3 */
+/* Charcoal Grey Colour               - #333333 */
+/* Smokey Grey Colour                 - #EEEEEE */     
+/* Black Colour                       - #000000 */ 
 
 ### Typography
 [Vollkorn](https://fonts.google.com/) and [sans-serif](https://fonts.google.com/) fonts were used throughout this project.
